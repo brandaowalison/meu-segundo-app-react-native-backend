@@ -9,10 +9,6 @@ const ocorrenciaSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
-    dataOcorrido: {
-        type: Date,
-        default: Date.now
-    },
     photo: {
         type: String,
         validate: {

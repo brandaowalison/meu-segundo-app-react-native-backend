@@ -7,7 +7,6 @@ const createOcorrencia = async(req, res) => {
         const ocorrencia = new Ocorrencia({
             titulo: req.body.titulo,
             descricao: req.body.descricao,
-            dataOcorrido: req.body.dataOcorrido,
             photo: photo,
             latitude: req.body.latitude,
             longitude: req.body.longitude
